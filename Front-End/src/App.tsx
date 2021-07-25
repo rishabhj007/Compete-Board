@@ -1,14 +1,12 @@
-import React from 'react';
-import './App.css';
-import Dashboard from './containers/Dashboard';
-
+import fetchPeerDetailsThunk from './redux/peerData/thunks';
 
 function App() {
-  return (
-    <div className="App">
-      <Dashboard/>
+  fetchPeerDetailsThunk();
+  return(
+    <div>
+      My Name is Rishabh Jain
     </div>
-  );
+  )
 }
 
 export default App;
