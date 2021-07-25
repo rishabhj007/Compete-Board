@@ -5,6 +5,5 @@ export const list = [
    "ShivamKankal",
    "ahn750",
    "alok_rai",
-   "daksh31",
    "lakshay_tomar",
 ];
